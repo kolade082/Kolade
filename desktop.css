@@ -1,0 +1,46 @@
+body{
+    display: inline;
+    background-color: rgba(2, 87, 68, 0.185)
+
+}
+ul {
+
+    background-color: rgba(1, 35, 36, 0.699);
+    color: white;
+    font-size: 100%;
+    display:flex;
+    list-style: none;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+ul li a{
+    text-align: center;
+    line-height: 80px;
+    
+
+}
+h1 {
+    display: inline-flex;
+    color: rgb(2, 2, 54);
+    text-align: center;
+
+}
+.det{ 
+
+    text-overflow: ellipsis;
+    width: 30%; 
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    color:rgb(29, 2, 2)
+}
+.idea{
+    background-image:url(img.jpg);
+    image-rendering:crisp-edges;
+    height: 600px;
+    width: 1339px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    
+}
